@@ -24,5 +24,5 @@ func NewDB() *sql.DB {
 	// migrate -database "mysql://root:admin@tcp(localhost:3306)/belajar_golang_database_migration" -path db/migrations up
 	// migrate -database "mysql://root:admin@tcp(localhost:3306)/belajar_golang_database_migration" -path db/migrations down
 	// migrate -database "mysql://root:admin@tcp(localhost:3306)/belajar_golang_database_migration" -path db/migrations version
-	// migrate -database "mysql://root:admin@tcp(localhost:3306)/belajar_golang_database_migration" -path db/migrations force 20220922043738
+	// migrate -database "mysql://root:admin@tcp(localhost:3306)/belajar_golang_database_migration" -path db/migrations force 20241107090514
 }
